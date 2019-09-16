@@ -1,0 +1,24 @@
+{
+  "name": "tutorial-build-a-serverless-database-using-faunadb-and-netlify-functions",
+  "version": "1.0.0",
+  "description": "A tutorial about how to build a serverless database using faunadb and netlify functions.",
+  "main": "index.js",
+  "scripts": {
+    "serve": "netlify-lambda serve ./src",
+    "build": "netlify-lambda build ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mansour-ahmed/tutorial-build-a-serverless-database-using-faunadb-and-netlify-functions.git"
+  },
+  "author": "Ahmed Mansour",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mansour-ahmed/tutorial-build-a-serverless-database-using-faunadb-and-netlify-functions/issues"
+  },
+  "homepage": "https://github.com/mansour-ahmed/tutorial-build-a-serverless-database-using-faunadb-and-netlify-functions#readme",
+  "dependencies": {
+    "netlify-lambda": "^1.6.3"
+  }
+}
