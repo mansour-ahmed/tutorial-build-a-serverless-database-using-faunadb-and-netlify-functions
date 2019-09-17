@@ -4,8 +4,8 @@
   "description": "A tutorial about how to build a serverless database using faunadb and netlify functions.",
   "main": "index.js",
   "scripts": {
-    "serve": "netlify-lambda serve ./src",
-    "build": "netlify-lambda build ./src",
+    "serve": "netlify-lambda serve ./src --config ./configs/webpack.functions.js",
+    "build": "netlify-lambda build ./src --config ./configs/webpack.functions.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/mansour-ahmed/tutorial-build-a-serverless-database-using-faunadb-and-netlify-functions#readme",
   "dependencies": {
-    "netlify-lambda": "^1.6.3"
+    "dotenv": "^8.1.0",
+    "faunadb": "2.7.0",
+    "netlify-lambda": "^1.6.3",
+    "webpack": "^4.39.3"
   }
 }
